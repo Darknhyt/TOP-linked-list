@@ -27,7 +27,15 @@ console.log(list.toString());
 console.log("List contains Victor: "+ list.contains("Victor")); //true
 console.log("List contains Vanesa: "+ list.contains("Vanesa")); //false
 //9. Returning the index of an element
-console.log("Index of Victor: "+ list.find("Victor")); //true
-console.log("Index of Vanesa: "+ list.find("Vanesa")); //false
+console.log("Index of Victor: "+ list.find("Victor")); 
+console.log("Index of Vanesa: "+ list.find("Vanesa")); 
 //10. Printing the list
+console.log(list.toString());
+//Extra: Inserting a new Node
+console.log("Inserting 'Willy' in 2");
+list.insertAt("Willy", 2)
+console.log(list.toString());
+//Extra: Removing a Node
+console.log("Removing 3");
+list.removeAt(3);
 console.log(list.toString());
